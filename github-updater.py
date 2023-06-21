@@ -22,7 +22,7 @@ class GithubUpdate:
     """Class for GitHub Update."""
     def __init__(self):
         print(WELCOME_ART + "\n")
-        self.target = input("[*] Please input your viewcount link: ")
+        self.target = input("[*] Please input your link: ")
         self.req_num = int(input("[*] Please input number of requests: "))
         self.delay = float(input("[*] Please input delay (in milliseconds): "))
         self.loop = asyncio.get_event_loop()
